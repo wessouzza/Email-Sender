@@ -10,7 +10,7 @@ import com.simple_email_sender.email_sender.serviceImp.EmailServiceImp;
 
 
 @RestController
-@RequestMapping("messages")
+@RequestMapping("api/v1/email")
 public class EmailController {
     private final EmailServiceImp emailServiceImp;
 
